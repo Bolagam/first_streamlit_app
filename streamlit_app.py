@@ -2,12 +2,15 @@
 
 import streamlit 
 
-streamlit.title('My parents nwe helthy Dinner')
+streamlit.title('mY Parents nwe helthy dinner')
 
 streamlit.header ('Break fast menu')
 
 
-streamlit.text ('kale,spinach & rocket smoothie')
+streamlit.text ('omega 3 blueberry otmeal')
 
-streamlit.text ('Hard Boiled Free Range Egg')
+streamlit.text ('kale,spinach & Rocket Smothie')
+
+
+streamlit.text ('Hard-Boiled Free Range egg')
 
