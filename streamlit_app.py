@@ -1,3 +1,2 @@
 
-
-streamlit.header('Build your own fruit smoothi')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
