@@ -1,2 +1,5 @@
-
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+streamlit.header('Breakfast Favoites')
+streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
+streamlit.text('🥗 kale,Spinach & Rocket Smoothie')
+streamlit.text('🐔 kale,Spinach & Rocket Smoothie')
+streamlit.text('🥑🍞 Avocado Toast')
