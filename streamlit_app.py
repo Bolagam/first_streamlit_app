@@ -1,15 +1,3 @@
-
-{
-  "name": "Banana",
-  "id": 1,
-  "family": "Musaceae",
-  "order": "Zingiberales",
-  "genus": "Musa",
-  "nutritions": {
-    "calories": 96,
-    "fat": 0.2,
-    "sugar": 17.2,
-    "carbohydrates": 22,
-    "protein": 1
-  }
-}
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
