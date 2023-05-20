@@ -24,6 +24,7 @@ fruityvice_respnse = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #output it the screen as a table
 streamlit.dataframe(fruityvice_normalized)
+streamlit.header("Fruityvice Fruit Advice!")
 
 
 
