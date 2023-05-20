@@ -27,5 +27,4 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 
-streamlit.header("Fruityvice Fruit Advice!")
 
