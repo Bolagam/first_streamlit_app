@@ -19,7 +19,7 @@ streamlit.write('The user entered',fruit_choice)
 
 
 import requests
-frutyvice_response = requests.get("https://fruityvice.com/api/fruit/" +fruit_choice)
+frutyvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 
 
