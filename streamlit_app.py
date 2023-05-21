@@ -14,7 +14,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 #NewSection  to display frutyvice api response
 
 streamlit.header('Frutyvice Fruit Advice')
-fruit_choice = streamlit.text_input('what fruit would you like information about?','Kiwi')
+fruit_choice = streamlit.text_input('what fruit would you like information about?','Apple')
 streamlit.write('The user entered',fruit_choice)
 
 
